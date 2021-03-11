@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -25,12 +26,12 @@ int main()
 
             cin >>
                 response;
-            if (response == 'A' || response=='a')
+            if (response == 'A' || response == 'a')
             {
                 cout << "Good! let's move to next q.\n";
                 score++;
             }
-            else if (response == 'B' || response == 'C' || response == 'D' || response=='b' || response=='c' || response=='d')
+            else if (response == 'B' || response == 'C' || response == 'D' || response == 'b' || response == 'c' || response == 'd')
             {
                 cout << "Good! let's move to next q.\n";
             }
@@ -44,12 +45,12 @@ int main()
 
             cin >>
                 response;
-            if (response == 'A' || response=='a')
+            if (response == 'A' || response == 'a')
             {
                 cout << "Good! let's move to next q.\n";
                 score++;
             }
-            else if (response == 'B' || response == 'C' || response == 'D' || response=='b' || response=='c' || response=='d')
+            else if (response == 'B' || response == 'C' || response == 'D' || response == 'b' || response == 'c' || response == 'd')
             {
                 cout << "Good! let's move to next q.\n";
             }
@@ -65,12 +66,12 @@ int main()
 
             cin >>
                 response;
-            if (response == 'B' || response=='b')
+            if (response == 'B' || response == 'b')
             {
                 cout << "Good! let's move to next q.\n";
                 score++;
             }
-            else if (response == 'A' || response == 'C' || response == 'D' || response=='a' || response=='c' || response=='d')
+            else if (response == 'A' || response == 'C' || response == 'D' || response == 'a' || response == 'c' || response == 'd')
             {
                 cout << "Good! let's move to next q.\n";
             }
@@ -85,12 +86,12 @@ int main()
 
             cin >>
                 response;
-            if (response == 'D')
+            if (response == 'D' || response=='d')
             {
                 cout << "Good! let's move to next q.\n";
                 score++;
             }
-            else if (response == 'A' || response == 'B' || response == 'C' || response=='a' || response=='b' || response=='c')
+            else if (response == 'A' || response == 'B' || response == 'C' || response == 'a' || response == 'b' || response == 'c')
             {
                 cout << "Good! let's move to next q.\n";
             }
@@ -105,12 +106,12 @@ int main()
 
             cin >>
                 response;
-            if (response == 'A' || response=='a')
+            if (response == 'A' || response == 'a')
             {
                 cout << "Good! let's move to next q.\n";
                 score++;
             }
-            else if (response == 'B' || response == 'C' || response == 'D' || response=='b' || response=='c' || response=='d')
+            else if (response == 'B' || response == 'C' || response == 'D' || response == 'b' || response == 'c' || response == 'd')
             {
                 cout << "Good! let's move to next q.\n";
             }
@@ -125,12 +126,12 @@ int main()
 
             cin >>
                 response;
-            if (response == 'D' || response=='d')
+            if (response == 'D' || response == 'd')
             {
                 cout << "Good! let's move to next q.\n";
                 score++;
             }
-            else if (response == 'A' || response == 'B' || response == 'C' || response=='a' || response=='b' || response=='c')
+            else if (response == 'A' || response == 'B' || response == 'C' || response == 'a' || response == 'b' || response == 'c')
             {
                 cout << "Good! let's move to next q.\n";
             }
@@ -145,12 +146,12 @@ int main()
 
             cin >>
                 response;
-            if (response == 'A')
+            if (response == 'A' || response=='a')
             {
                 cout << "Good! let's move to next q.\n";
                 score++;
             }
-            else if (response == 'B' || response == 'C' || response == 'D' || response=='b' || response=='c' || response=='d') 
+            else if (response == 'B' || response == 'C' || response == 'D' || response == 'b' || response == 'c' || response == 'd')
             {
                 cout << "Good! let's move to next q.\n";
             }
@@ -165,12 +166,12 @@ int main()
 
             cin >>
                 response;
-            if (response == 'A' || response=='a')
+            if (response == 'A' || response == 'a')
             {
                 cout << "Good! let's move to next q.\n";
                 score++;
             }
-            else if (response == 'B' || response == 'C' || response == 'D' || response=='b' || response=='c' || response=='d')
+            else if (response == 'B' || response == 'C' || response == 'D' || response == 'b' || response == 'c' || response == 'd')
             {
                 cout << "Good! let's move to next q.\n";
             }
@@ -185,12 +186,12 @@ int main()
 
             cin >>
                 response;
-            if (response == 'A' || response=='a')
+            if (response == 'A' || response == 'a')
             {
                 cout << "Good! let's move to next q.\n";
                 score++;
             }
-            else if (response == 'B' || response == 'C' || response == 'D' || response=='b' || response=='c' || response=='d')
+            else if (response == 'B' || response == 'C' || response == 'D' || response == 'b' || response == 'c' || response == 'd')
             {
                 cout << "Good! let's move to next q.\n";
             }
@@ -205,12 +206,12 @@ int main()
 
             cin >>
                 response;
-            if (response == 'C' || response=='c')
+            if (response == 'C' || response == 'c')
             {
                 cout << "Awesome!.\n";
                 score++;
             }
-            else if (response == 'A' || response == 'B' || response == 'D' || response=='a' || response=='b' || response=='d')
+            else if (response == 'A' || response == 'B' || response == 'D' || response == 'a' || response == 'b' || response == 'd')
             {
                 cout << "Great\n";
             }
@@ -221,6 +222,9 @@ int main()
 
             cout << "Great. You have answered all q succesfully.Here is your score.\n";
             cout << "Correctly Answered: " << score << "\n";
+            cout << "Incorrectly answered: " << 10 - score << "\n";
+            cout << "Correct answers: "
+                 << "A A B D A D A A A C\n";
             cout << "Well Done!\n I am exiting you from the program. Thanks";
             break;
         }
